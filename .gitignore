@@ -1,0 +1,32 @@
+# Datasets and huge files
+TCIA_TCGA-KIRC_09-16-2015 (2)/
+cptac_ccrcc/
+data/
+*.csv
+*.tsv
+*.dcm
+*.nii.gz
+*.npy
+*.dic
+*.txt
+!requirements.txt
+
+# Model weights and runs
+runs/
+catboost_info/
+*.pt
+*.pth
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# System files
+.DS_Store
+Thumbs.db
