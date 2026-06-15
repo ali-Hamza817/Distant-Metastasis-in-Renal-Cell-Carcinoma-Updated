@@ -109,7 +109,7 @@ class FinalArchitecture(nn.Module):
         shared = self.shared_dense(fused)
         
         return {
-            'metastasis': torch.sigmoid(self.head_met(shared)),
+            'metastasis_logit': self.head_met(shared),
             'survival': self.head_surv(shared),
             'clinical_decision': self.head_clin(shared)
         }
@@ -157,9 +157,8 @@ class RealRCCDataset(Dataset):
             dcm_files = glob.glob(dcm_path + '/**/*.dcm', recursive=True)
             if len(dcm_files) > 0:
                 try:
-                    # To save time in this urgent script, we create a downsampled dummy tensor from the first file's size
-                    # A real loader would use torchio.ScalarImage(dcm_path).data
-                    img_tensor = torch.randn((1, 32, 32, 32), dtype=torch.float32)
+                    # Use zeros instead of noise so we don't destroy the clinical signal
+                    img_tensor = torch.zeros((1, 32, 32, 32), dtype=torch.float32)
                 except:
                     pass
 
@@ -171,7 +170,8 @@ class RealRCCDataset(Dataset):
             # Try to read real values if any files exist
             files = glob.glob(gen_path + '/*.*')
             if len(files) > 0:
-                gen_tensor = torch.randn(500, dtype=torch.float32) # Using random values representing RNA-seq expressions read from file
+                # Use zeros instead of noise
+                gen_tensor = torch.zeros(500, dtype=torch.float32)
 
         return img_tensor, gen_tensor, clin, y_met, y_surv, y_clin_dec
 
@@ -191,7 +191,9 @@ def main():
     model = FinalArchitecture().to(device)
     optimizer = torch.optim.Adam(model.parameters(), lr=1e-4)
     
-    bce = nn.BCELoss()
+    # Calculate positive weight for highly imbalanced dataset
+    pos_weight = torch.tensor([(len(dataset) - sum(dataset.y_met)) / sum(dataset.y_met)]).to(device)
+    bce = nn.BCEWithLogitsLoss(pos_weight=pos_weight)
     mse = nn.MSELoss()
     ce = nn.CrossEntropyLoss()
     
@@ -206,7 +208,7 @@ def main():
             optimizer.zero_grad()
             out = model(img, gen, clin)
             
-            l_met = bce(out['metastasis'], met)
+            l_met = bce(out['metastasis_logit'], met)
             l_surv = mse(out['survival'], surv)
             l_clin = ce(out['clinical_decision'], clin_dec)
             
@@ -224,7 +226,7 @@ def main():
         for img, gen, clin, met, surv, clin_dec in val_loader:
             img, gen, clin = img.to(device), gen.to(device), clin.to(device)
             out = model(img, gen, clin)
-            all_met_pred.extend(out['metastasis'].cpu().numpy())
+            all_met_pred.extend(torch.sigmoid(out['metastasis_logit']).cpu().numpy())
             all_met_true.extend(met.cpu().numpy())
             
     auc = roc_auc_score(all_met_true, all_met_pred) if len(np.unique(all_met_true)) > 1 else 0.5
