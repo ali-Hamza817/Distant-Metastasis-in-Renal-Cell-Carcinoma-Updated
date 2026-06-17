@@ -49,6 +49,12 @@ Each modality was rigorously evaluated on its respective dataset.
 
 *\*Genomic Recall is reported @ 90% Specificity. \*\*Imaging Recall derived from Confusion Matrix.*
 
+### Genomic Evaluation Curves
+![Genomic Curves](final_results/Model_2_Genomic_CPTAC/genomics_evaluation_curves.png)
+
+### Imaging Evaluation Curves
+![Imaging Curves](final_results/Model_3_Imaging_TCGA/imaging_evaluation_curves.png)
+
 ---
 
 ## 🚀 Late Fusion Architecture & Multimodal Lift
@@ -67,6 +73,9 @@ The fusion model learned the following importance weights:
 | **PR-AUC** | 0.271 | **0.344** | 📈 +0.073 |
 | **Recall** | 0.773 | **0.795** | 📈 +0.022 |
 | **NPV** | 0.931 | **0.938** | 📈 +0.007 |
+
+### Fusion Evaluation Curves (Clinical vs Imaging vs Fusion)
+![Fusion Curves](final_results/Model_4_Late_Fusion/fusion_evaluation_curves.png)
 
 ---
 
