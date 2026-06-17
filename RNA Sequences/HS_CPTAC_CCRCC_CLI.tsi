@@ -1,0 +1,224 @@
+Case_ID	Age	Gender	Tumor_Site	Tumor_Size_cm	Histologic_Grade	Path_Stage_Primary_Tumor_pT	Tumor_Stage_Pathological	BMI	Tobacco_smoking_hist
+	NUM	BIN	CAT	NUM	ORD	ORD	ORD	NUM	ORD
+C3L-00004	72	Male	Lower pole	2	G3	pT3	Stage III	22.8	Current reformed smoker within past 15 years
+C3L-00010	30	Male	Upper pole	6.5	G3	pT1	Stage I	34.15	Current smoker: Includes daily and non-daily smokers
+C3L-00011	63	Female	NA	12	G4	pT3	Stage III	27.47	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-00026	65	Female	NA	2	G3	pT1	Stage I	28.23	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-00079	49	Male	NA	14	G3	pT3	Stage III	37.88	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-00088	72	Male	NA	4	G2	pT3	Stage III	32.82	Current reformed smoker within past 15 years
+C3L-00096	52	Male	Lower pole	12.3	G4	pT3	Stage IV	27.44	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-00097	59	Male	Upper pole	3.7	G2	pT1	Stage I	36.81	"Current reformed smoker, more than 15 years"
+C3L-00103	56	Male	Middle	11	G3	pT3	Stage III	28.7	Current smoker: Includes daily and non-daily smokers
+C3L-00165	47	Male	NA	NA	NA	NA	NA	NA	NA
+C3L-00183	33	Female	Middle	6	G2	pT3	Stage III	36.39	Current smoker: Includes daily and non-daily smokers
+C3L-00359	73	Female	NA	3	G1	pT1	Stage I	42.92	Current reformed smoker within past 15 years
+C3L-00360	72	Male	NA	3.7	G3	pT2	Stage II	38.94	Current reformed smoker within past 15 years
+C3L-00369	89	Male	Lower pole	12.5	G2	pT3	Stage III	27.35	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-00416	62	Male	NA	6	G4	pT3	Stage II	32	Current smoker: Includes daily and non-daily smokers
+C3L-00418	56	Female	NA	8.7	G2	pT3	Stage III	59.88	NA
+C3L-00447	35	Male	Upper pole	5.5	G3	pT1	Stage I	36.57	Current smoker: Includes daily and non-daily smokers
+C3L-00448	66	Male	NA	1.5	G2	pT1	Stage I	26.18	"Current reformed smoker, more than 15 years"
+C3L-00561	50	Male	Middle	10	G4	pT3	Stage III	27.47	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-00581	52	Male	Lower pole	13	G2	pT2	Stage II	33.66	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-00583	55	Male	NA	4	G3	pT1	Stage I	37.72	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-00606	75	Female	NA	7	G3	pT3	Stage III	42.33	"Current reformed smoker, more than 15 years"
+C3L-00607	66	Male	Middle	7.5	G4	pT3	Stage III	37.96	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-00610	57	Female	Upper pole	6.5	G3	pT1	Stage I	40.74	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-00765	61	Female	Lower pole	5.6	G2	pT1	Stage I	21.96	Current reformed smoker within past 15 years
+C3L-00766	57	Female	Upper pole	2.8	G2	pT1	Stage I	68.59	NA
+C3L-00789	31	Female	NA	4.7	G2	pT1	Stage I	32.41	NA
+C3L-00790	44	Male	Middle	7	G2	pT1	Stage I	38.99	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-00791	76	Male	NA	6.5	G3	pT1	Stage III	29.49	NA
+C3L-00792	NA	Female	Lower pole	8.7	G3	pT2	Stage II	29.6	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-00796	67	Male	Lower pole	5.5	G2	pT1	Stage I	30.81	Current smoker: Includes daily and non-daily smokers
+C3L-00799	41	Male	Lower pole	2.5	G2	pT1	Stage I	35.66	NA
+C3L-00800	41	Male	Middle	4	G2	pT1	Stage I	29.01	NA
+C3L-00812	74	Male	Upper pole	2.5	G2	pT1	Stage I	27.04	NA
+C3L-00813	61	Male	Upper pole	4	G3	pT3	Stage III	19.49	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-00814	83	Male	NA	3	G2	pT1	Stage I	30.56	NA
+C3L-00815	78	Female	Lower pole	3.4	G2	pT1	Stage I	35.01	NA
+C3L-00817	80	Male	Middle	1.2	G2	pT1	Stage I	33.96	NA
+C3L-00902	69	Female	Middle	5	G1	pT1	Stage I	19.72	"Current reformed smoker, more than 15 years"
+C3L-00907	55	Male	Lower pole	4.8	G2	pT1	Stage I	47.25	Current reformed smoker within past 15 years
+C3L-00908	60	Female	Middle	10.5	G3	pT2	Stage II	27.85	"Current reformed smoker, more than 15 years"
+C3L-00910	75	Female	Upper pole	5	G3	pT1	Stage I	36.36	"Current reformed smoker, more than 15 years"
+C3L-00917	37	Male	Middle	3	G3	pT1	Stage I	45.37	NA
+C3L-00966	59	Female	Lower pole	3.8	G2	pT1	Stage I	24.67	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-00968	61	Male	Upper pole	14	G4	pT3	Stage IV	24.44	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-00969	40	Male	NA	9	G2	pT2	Stage IV	26.25	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-00970	55	Male	NA	12	G2	pT3	Stage IV	27.06	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-00976	68	Male	NA	11	G4	pT3	Stage IV	21.51	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-00980	63	Male	Middle	7	G2	pT1	Stage I	NA	"Current reformed smoker, more than 15 years"
+C3L-00981	54	Male	Upper pole	8	G2	pT2	Stage II	23.45	"Current reformed smoker, more than 15 years"
+C3L-00982	63	Male	Lower pole	4	G2	pT1	Stage I	21.05	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-00991	45	Male	Middle	13	G2	pT2	Stage II	31.2	Current reformed smoker within past 15 years
+C3L-01033	70	Male	Middle	8.5	G3	pT2	Stage II	27.34	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-01034	67	Male	Upper pole	2	G2	pT1	Stage I	30.49	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-01102	47	Male	Middle	3.8	G3	pT1	Stage I	27.04	Current smoker: Includes daily and non-daily smokers
+C3L-01106	51	Female	NA	12	G3	pT2	Stage II	23.19	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-01107	43	Male	NA	6.5	G2	pT1	Stage I	24.3	Current smoker: Includes daily and non-daily smokers
+C3L-01279	68	Female	Middle	4.5	G4	pT1	Stage I	34.57	NA
+C3L-01281	66	Male	Lower pole	11.5	G4	pT3	Stage III	34.76	NA
+C3L-01283	37	Male	Middle	2.4	G3	pT1	Stage I	30.86	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-01286	58	Male	NA	6	G3	pT3	Stage III	46.17	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-01287	60	Male	NA	10.5	G4	pT3	Stage III	25.31	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-01288	70	Female	Middle	2.8	G1	pT1	Stage I	39.45	Current smoker: Includes daily and non-daily smokers
+C3L-01302	71	Female	Upper pole	8.5	G4	pT3	Stage III	36	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-01313	63	Male	Middle	9	G4	pT3	Stage III	29.38	Current reformed smoker within past 15 years
+C3L-01352	76	Female	Middle	3.4	G2	pT1	Stage I	26.95	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-01459	68	Female	Middle	2.9	G2	pT1	Stage I	29.26	"Current reformed smoker, more than 15 years"
+C3L-01462	68	Male	Upper pole	2.9	G2	pT1	Stage I	33.52	NA
+C3L-01464	78	Male	NA	10.5	G4	pT3	Stage III	24.1	NA
+C3L-01465	67	Male	NA	10.7	G3	pT4	Stage IV	24.21	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-01470	50	Male	Upper pole	7.5	G2	pT2	Stage II	35.35	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-01553	59	Male	Lower pole	1.9	G2	pT1	Stage I	46.17	NA
+C3L-01557	51	Male	NA	9.6	G3	pT3	Stage III	48.46	NA
+C3L-01560	54	Female	Lower pole	1.5	G3	pT1	Stage I	38.08	NA
+C3L-01603	63	Male	Upper pole	4	G2	pT1	Stage I	42.77	"Current reformed smoker, more than 15 years"
+C3L-01607	83	Male	Lower pole	6.5	G3	pT3	Stage III	27.52	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-01665	67	Male	Upper pole	13	G4	pT3	Stage III	33.34	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-01676	53	Male	NA	NA	NA	NA	NA	NA	NA
+C3L-01681	76	Male	Middle	4.5	G3	pT3	Stage III	27.26	"Current reformed smoker, more than 15 years"
+C3L-01836	47	Male	Upper pole	4.5	G3	pT1	Stage I	29.41	Current reformed smoker within past 15 years
+C3L-01861	57	Male	Upper pole	3.5	G3	pT1	Stage I	28.63	"Current reformed smoker, more than 15 years"
+C3L-01869	54	Female	NA	6.9	G2	pT3	Stage III	35.22	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-01882	48	Male	Middle	2.2	G2	pT1	Stage I	48.79	Current smoker: Includes daily and non-daily smokers
+C3L-01885	67	Male	Lower pole	3.5	G2	pT1	Stage I	35.27	"Current reformed smoker, more than 15 years"
+C3L-01929	53	Male	Upper pole	5.5	G3	pT1	Stage I	35.77	NA
+C3L-01951	51	Male	NA	5	G2	pT1	Stage I	28.48	NA
+C3L-01952	50	Male	Middle	3.7	G2	pT1	Stage I	43.68	NA
+C3L-01954	67	Female	Lower pole	4.4	G3	pT1	Stage I	52	"Current reformed smoker, more than 15 years"
+C3L-01958	61	Male	Upper pole	3.1	G2	pT3	Stage III	28.89	NA
+C3L-01963	63	Female	Lower pole	7.1	G2	pT2	Stage II	37.76	NA
+C3L-01976	64	Female	NA	3	G2	pT1	Stage I	32.12	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-01978	57	Female	Lower pole	2	G2	pT1	Stage I	20.6	NA
+C3L-02175	48	Female	Upper pole	6.5	G1	pT1	Stage I	30.54	Current smoker: Includes daily and non-daily smokers
+C3L-02176	79	Female	Lower pole	6.9	G3	pT1	Stage I	29.29	NA
+C3L-02177	51	Male	Lower pole	4	G2	pT1	Stage I	29.95	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-02201	68	Male	Lower pole	4.5	G3	pT3	Stage III	27.98	NA
+C3L-02202	61	Male	Upper pole	6	G1	pT1	Stage I	30.38	NA
+C3L-02208	68	Male	Upper pole	5	G2	pT1	Stage I	37.87	NA
+C3L-02211	56	Female	Middle	4	G1	pT1	Stage I	36.61	NA
+C3L-02214	33	Male	Upper pole	3.5	G2	pT1	Stage I	26.14	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-02220	72	Female	Upper pole	9	G4	pT3	Stage III	32.56	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-02346	69	Male	Middle	5.5	G4	pT3	Stage III	27.77	NA
+C3L-02352	67	Female	Lower pole	6.2	G3	pT1	Stage I	44.46	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-02364	56	Male	Upper pole	2.4	G2	pT1	Stage I	40.31	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-02544	57	Female	NA	4.5	G3	pT3	Stage III	36.36	Current reformed smoker within past 15 years
+C3L-02551	50	Male	NA	3.5	G2	pT3	Stage III	27.26	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-02553	57	Male	Lower pole	2.5	G1	pT1	Stage I	28.73	Current reformed smoker within past 15 years
+C3L-02556	85	Male	Lower pole	3.2	G2	pT3	Stage III	24.16	"Current reformed smoker, more than 15 years"
+C3L-02841	60	Male	NA	11	G4	pT3	Stage III	38.21	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-02842	68	Female	Lower pole	3.2	G4	pT1	Stage I	51.49	NA
+C3L-02856	89	Female	NA	8	G3	pT3	Stage III	28.16	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3L-02857	66	Female	NA	3	G2	pT1	Stage I	21.14	NA
+C3N-00148	52	Male	Upper pole	4	G3	pT1	Stage I	28.41	NA
+C3N-00149	68	Female	NA	12	G4	pT4	Stage IV	27.05	NA
+C3N-00150	55	Female	Middle	12	G3	pT3	Stage IV	18.42	NA
+C3N-00154	68	Male	Upper pole	8	G3	pT2	Stage II	28.08	NA
+C3N-00168	47	Male	Upper pole	4	G3	pT1	Stage I	18.78	Current smoker: Includes daily and non-daily smokers
+C3N-00177	52	Male	Upper pole	7	G3	pT3	Stage III	24.06	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-00194	51	Female	Middle	12	G3	pT2	Stage IV	26.96	Current smoker: Includes daily and non-daily smokers
+C3N-00242	69	Male	NA	3.5	G2	pT1	Stage II	39.2	"Current reformed smoker, more than 15 years"
+C3N-00244	46	Male	Upper pole	2.5	G2	pT1	Stage II	44.3	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-00246	44	Male	Lower pole	3.1	G2	pT1	Stage I	45.77	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-00305	60	Female	Middle	1	G1	pT1	Stage I	19	Current smoker: Includes daily and non-daily smokers
+C3N-00310	84	Male	Upper pole	5	G2	pT3	Stage III	28	"Current reformed smoker, more than 15 years"
+C3N-00312	68	Male	Lower pole	4	G3	pT3	Stage III	30	NA
+C3N-00313	31	Female	Middle	4	G2	pT1	Stage I	22	NA
+C3N-00314	78	Male	Upper pole	4	G2	pT1	Stage I	31	Current reformed smoker within past 15 years
+C3N-00315	68	Male	Lower pole	7	G3	pT1	Stage I	28	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-00317	74	Female	Lower pole	5	G2	pT1	Stage I	23	NA
+C3N-00320	67	Male	Middle	4	G2	pT3	Stage III	32	Current reformed smoker within past 15 years
+C3N-00380	57	Female	Upper pole	4.1	G2	pT1	Stage I	46	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-00390	58	Male	Upper pole	14.1	G2	pT3	Stage IV	29.05	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-00435	72	Male	Upper pole	10.5	G3	pT3	Stage III	26.99	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-00437	69	Female	Upper pole	6	G3	pT3	Stage III	37	Current reformed smoker within past 15 years
+C3N-00491	54	Male	Upper pole	6	G2	pT1	Stage I	30	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-00492	49	Female	NA	11	G3	pT2	Stage II	26	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-00494	66	Male	Upper pole	5	G2	pT1	Stage I	34	Current smoker: Includes daily and non-daily smokers
+C3N-00495	67	Male	Middle	4	G2	pT1	Stage I	16	"Current reformed smoker, more than 15 years"
+C3N-00573	61	Male	Upper pole	11	G2	pT2	Stage II	22.04	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-00577	72	Male	Upper pole	14	G3	pT3	Stage IV	21.83	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-00646	57	Female	Middle	3.2	G2	pT1	Stage I	27.72	NA
+C3N-00647	57	Female	NA	NA	NA	NA	NA	NA	NA
+C3N-00715	53	Male	NA	NA	NA	NA	NA	NA	NA
+C3N-00721	53	Male	NA	NA	NA	NA	NA	NA	NA
+C3N-00733	56	Male	NA	8.6	G2	pT3	Stage III	27.77	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-00831	52	Male	Upper pole	8	G2	pT2	Stage II	30	NA
+C3N-00832	79	Male	Lower pole	4	G2	pT1	Stage I	23	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-00834	65	Male	Upper pole	5	G1	pT1	Stage I	30	"Current reformed smoker, more than 15 years"
+C3N-00852	62	Male	NA	13.6	G3	pT3	Stage III	28.71	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-00953	41	Male	Upper pole	8	G3	pT2	Stage II	22.43	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-01077	60	Male	NA	NA	NA	NA	NA	NA	NA
+C3N-01078	69	Female	NA	NA	NA	NA	NA	NA	NA
+C3N-01080	66	Male	NA	NA	NA	NA	NA	NA	NA
+C3N-01081	68	Female	NA	NA	NA	NA	NA	NA	NA
+C3N-01082	52	Female	NA	NA	NA	NA	NA	NA	NA
+C3N-01083	54	Female	NA	NA	NA	NA	NA	NA	NA
+C3N-01085	42	Female	NA	NA	NA	NA	NA	NA	NA
+C3N-01086	61	Male	NA	NA	NA	NA	NA	NA	NA
+C3N-01088	76	Female	NA	NA	NA	NA	NA	NA	NA
+C3N-01090	63	Male	NA	NA	NA	NA	NA	NA	NA
+C3N-01091	53	Male	NA	NA	NA	NA	NA	NA	NA
+C3N-01175	60	Female	Middle	3	G2	pT3	Stage III	14	NA
+C3N-01176	71	Male	Upper pole	6	G2	pT3	Stage III	29	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-01178	58	Female	Middle	7	G2	pT3	Stage III	25	Current reformed smoker within past 15 years
+C3N-01179	72	Male	Middle	2	G2	pT3	Stage III	26	Current reformed smoker within past 15 years
+C3N-01180	51	Male	Upper pole	5	G2	pT1	Stage I	24	Current reformed smoker within past 15 years
+C3N-01200	56	Female	NA	16	G3	pT4	Stage IV	26.37	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-01213	68	Male	Upper pole	8.3	G1	pT3	Stage III	22.68	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-01214	60	Male	Upper pole	8.4	G2	pT2	Stage II	21.38	Current smoker: Includes daily and non-daily smokers
+C3N-01220	51	Male	Middle	6.8	G4	pT3	Stage IV	23.89	Current smoker: Includes daily and non-daily smokers
+C3N-01261	67	Male	Upper pole	5.2	G1	pT1	Stage I	24.02	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-01361	48	Male	Middle	2	G2	pT1	Stage I	39	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-01522	80	Male	Upper pole	5.5	G2	pT1	Stage I	30.78	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-01524	61	Male	Upper pole	8	G3	pT2	Stage II	28.38	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-01536	65	Male	Upper pole	7	G2	pT3	Stage III	33.3	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-01646	69	Male	Upper pole	10	G3	pT3	Stage III	25	NA
+C3N-01648	69	Male	Middle	7	G2	pT2	Stage II	28	NA
+C3N-01649	51	Male	Upper pole	8	G2	pT3	Stage III	35	Current reformed smoker within past 15 years
+C3N-01651	58	Male	NA	10	G3	pT2	Stage II	25	NA
+C3N-01654	64	Female	Upper pole	5.5	G2	pT3	Stage III	25	Current smoker: Includes daily and non-daily smokers
+C3N-01655	64	Male	Upper pole	4	G2	pT1	Stage I	30	Current smoker: Includes daily and non-daily smokers
+C3N-01656	68	Male	Middle	8	G2	pT3	Stage III	24	NA
+C3N-01657	74	Male	Middle	2.5	G1	pT1	Stage I	29	NA
+C3N-01806	57	Male	NA	9	G4	pT3	Stage III	24.12	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-01808	47	Male	Upper pole	5.8	G2	pT1	Stage I	28.75	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-01828	67	Female	Lower pole	7	G2	pT3	Stage IV	26.9	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-01902	63	Male	Lower pole	7	G2	pT3	Stage III	30	Current smoker: Includes daily and non-daily smokers
+C3N-01905	59	Male	Lower pole	7	G2	pT3	Stage III	31	Current smoker: Includes daily and non-daily smokers
+C3N-01989	70	Female	Middle	6.5	G2	pT1	Stage II	45.8	Current reformed smoker within past 15 years
+C3N-02005	63	Male	Lower pole	3.5	G2	pT1	Stage I	25.95	Current reformed smoker within past 15 years
+C3N-02015	54	Male	Middle	3.5	G2	pT1	Stage I	25.69	Current reformed smoker within past 15 years
+C3N-02063	49	Male	Upper pole	4	G2	pT1	Stage I	27.76	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-02066	61	Female	Lower pole	7.5	G2	pT2	Stage II	26.64	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-02068	47	Female	Lower pole	3.5	G2	pT1	Stage I	22.31	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-02070	54	Male	NA	5	G2	pT1	Stage I	22.72	Current smoker: Includes daily and non-daily smokers
+C3N-02082	66	Female	Lower pole	3	G3	pT1	Stage I	21.91	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-02084	52	Male	Middle	3.5	G2	pT1	Stage I	22.49	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-02085	46	Male	Lower pole	3	G2	pT1	Stage I	31.38	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-02160	51	Male	NA	NA	NA	NA	NA	NA	NA
+C3N-02224	41	Female	NA	NA	NA	NA	NA	NA	NA
+C3N-02248	62	Male	NA	NA	NA	NA	NA	NA	NA
+C3N-02262	67	Male	NA	NA	NA	NA	NA	NA	NA
+C3N-02263	69	Female	Middle	3	G2	pT1	Stage I	22	Current smoker: Includes daily and non-daily smokers
+C3N-02264	68	Male	Middle	5	G2	pT1	Stage I	26	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-02265	55	Female	Lower pole	5	G3	pT3	Stage III	24	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-02266	56	Male	Middle	2	G1	pT1	Stage I	26	"Current reformed smoker, more than 15 years"
+C3N-02332	66	Female	Upper pole	7	G2	pT3	Stage III	30.67	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-02338	58	Male	Lower pole	7	G2	pT3	Stage III	24.22	NA
+C3N-02429	41	Male	Upper pole	4	G3	pT1	Stage I	27.04	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-02431	47	Male	Upper pole	5	G2	pT1	Stage I	27.68	Current smoker: Includes daily and non-daily smokers
+C3N-02439	57	Male	NA	10.5	G3	pT3	Stage III	26.17	"Current reformed smoker, more than 15 years"
+C3N-02577	47	Male	NA	9	G3	pT2	Stage IV	29.37	Current smoker: Includes daily and non-daily smokers
+C3N-02723	86	Female	Upper pole	8	G3	pT2	Stage IV	39.06	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-02726	53	Male	Upper pole	8	G3	pT3	Stage IV	31.41	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-02761	31	Male	Lower pole	4.5	G2	pT1	Stage I	28.38	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-02763	76	Male	Upper pole	5	G3	pT1	Stage I	31.89	"Current reformed smoker, more than 15 years"
+C3N-02811	74	Male	Lower pole	5.5	G3	pT1	Stage I	27.56	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-02945	66	Female	Lower pole	11.6	G4	pT3	Stage III	27.95	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-03018	65	Male	NA	NA	NA	NA	NA	26	"Current reformed smoker, more than 15 years"
+C3N-03019	46	Male	Upper pole	2	G2	pT1	Stage I	21	Current reformed smoker within past 15 years
+C3N-03020	65	Male	NA	NA	NA	NA	NA	25	Lifelong non-smoker: Less than 100 cigarettes smoked in lifetime
+C3N-03021	50	Male	Lower pole	3	G3	pT1	Stage I	43	Current reformed smoker within past 15 years
